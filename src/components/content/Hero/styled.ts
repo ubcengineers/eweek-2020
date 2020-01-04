@@ -6,14 +6,17 @@ export const StyledWrapper = styled.div`
   flex-flow: column nowrap;
   justify-content: center;
   align-items: center;
-  color: #333333;
-  font-size: 1.2vw;
-  text-transform: uppercase;
+  color: white;
+  font-size: 1.3rem;
+  text-align: center;
+
+  & h2 {
+    font-family: "Unisono", sans-serif;
+  }
 `;
 
 export const StyledLogo = styled.img`
-  width: 55vw;
+  max-width: 30vw;
   min-width: 350px;
-  background: radial-gradient(white 50%, transparent 100%);
-  margin-left: 5vw;
+  background: radial-gradient(rgba(255, 255, 255, 0.05) 50%, transparent 70%);
 `;

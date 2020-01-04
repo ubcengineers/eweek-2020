@@ -4,7 +4,7 @@ import styled from "styled-components";
 export const StyledWrapper = styled.div`
   width: 100%;
   display: grid;
-  margin-top: 64px;
+  margin: 64px 0;
   grid-gap: 16px;
   grid-template-columns: repeat(auto-fit, minmax(min-content, 400px));
   justify-content: center;

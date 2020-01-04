@@ -15,14 +15,14 @@ export const StyledWrapper = styled.div`
 export const StyledNavItem = styled(NavLink)`
   display: inline-block;
   margin: 8px 16px;
-  font-family: "Roboto", sans-serif;
+  font-family: "unisono", sans-serif;
   font-weight: 700;
-  color: #333333;
+  color: white;
   text-decoration: none;
   transition: all 0.2s;
 
   &:hover {
-    color: "#40AB3D";
+    color: "#ffd219";
   }
 `;
 
@@ -50,7 +50,7 @@ export const StyledNavOverlayItem = styled(NavLink)`
   transition: all 0.2s;
 
   &:hover {
-    color: "#40AB3D";
+    color: "#ffd219";
   }
 `;
 
@@ -67,7 +67,7 @@ export const StyledOpen = styled.i`
   transition: all 0.2s;
 
   &:hover {
-    color: "#40AB3D";
+    color: "#ffd219";
   }
 `;
 
@@ -82,6 +82,6 @@ export const StyledClose = styled.i`
   transition: all 0.2s;
 
   &:hover {
-    color: "#40AB3D";
+    color: "#ffd219";
   }
 `;

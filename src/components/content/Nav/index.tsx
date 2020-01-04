@@ -54,7 +54,7 @@ class Nav extends React.Component<IProps> {
       return (
         <>
           <StyledWrapper
-            style={{ background: this.props.full ? "white" : "transparent" }}
+            style={{ background: this.props.full ? "#202020" : "transparent" }}
           >
             <StyledOpen className="fas fa-bars" onClick={this.handleOpen} />
           </StyledWrapper>
@@ -67,7 +67,7 @@ class Nav extends React.Component<IProps> {
                     to={element.link}
                     onClick={this.handleClose}
                     activeStyle={{
-                      color: "#40AB3D"
+                      color: "#ffd219"
                     }}
                     exact={true}
                   >
@@ -86,7 +86,7 @@ class Nav extends React.Component<IProps> {
     } else {
       return (
         <StyledWrapper
-          style={{ background: this.props.full ? "white" : "transparent" }}
+          style={{ background: this.props.full ? "#202020" : "transparent" }}
         >
           <StyledNavItem
             style={{ lineHeight: "48px", verticalAlign: "middle" }}
@@ -107,7 +107,7 @@ class Nav extends React.Component<IProps> {
                   key={element.title.toString()}
                   to={element.link}
                   activeStyle={{
-                    color: "#40AB3D"
+                    color: "#ffd219"
                   }}
                   exact={true}
                 >

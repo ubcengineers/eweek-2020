@@ -1,31 +1,55 @@
-.white {
-  background: white;
-  color: black;
-}
-
 .white h1,
 .white h2,
 .white h3 {
-  color: #e51e25;
-}
-
-.blue {
-  color: #333333;
-  background: radial-gradient(white 40%, transparent 100%);
+  color: white;
 }
 
 .blue h1,
 .blue h2,
 .blue h3 {
-  color: #40ab3d;
+  color: #21409a;
 }
 
-.red {
+.red h1,
+.red h2,
+.red h3 {
+  color: #cc151b;
+}
+
+.yellow h1,
+.yellow h2,
+.yellow h3 {
+  color: #ffd219;
+}
+
+.full.white {
+  background: white;
+  color: #202020;
+}
+
+.full h1,
+.full h2,
+.full h3 {
   color: white;
-  background: #e51e25;
 }
 
-.blue h2,
-.blue h3 {
-  color: #e51e25;
+.full.white h1,
+.full.white h2,
+.full.white h3 {
+  color: #202020;
+}
+
+.full.blue {
+  background: #21409a;
+  color: white;
+}
+
+.full.red {
+  background: #cc151b;
+  color: white;
+}
+
+.full.yellow {
+  background: #ffd219;
+  color: white;
 }

@@ -1,7 +1,7 @@
-# Week E^0 2018 Website
+# E-Week 2020 Website
 
 
-This is the repository of the Week E^0 2018 website. This website provides information Week E^0 and E-Retreat for incoming students and potential volunteers. The website uses the static website generator [Create React App](https://github.com/facebook/create-react-app).
+This is the repository of the E-Week 2020 website. The website uses the static website generator [Create React App](https://github.com/facebook/create-react-app).
 
 [View live website](https://weeke0.ubcengineers.ca)
 

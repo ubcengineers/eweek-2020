@@ -23,7 +23,7 @@ const LoadablePage = (component: any) =>
 
 const MainLoadable = LoadablePage(import("./pages/Main"));
 const ScheduleLoadable = LoadablePage(import("./pages/Schedule"));
-const ERetreatLoadable = LoadablePage(import("./pages/ERetreat"));
+const ERetreatLoadable = LoadablePage(import("./pages/EBall"));
 const ErrorLoadable = LoadablePage(import("./pages/404"));
 
 export default class App extends React.Component {
@@ -46,7 +46,7 @@ export default class App extends React.Component {
           <Nav
             full={!this.state.top}
             left="UBC Vancouver Campus"
-            right="September 2019"
+            right="january 2020"
             navItems={[
               {
                 link: "/",
@@ -57,15 +57,15 @@ export default class App extends React.Component {
                 title: "Schedule"
               },
               {
-                link: "/e-retreat",
-                title: "E-Retreat"
+                link: "/e-ball",
+                title: "E-Ball"
               }
             ]}
           />
           <Switch>
             <Route path="/" exact={true} component={this.Main} />
             <Route path="/schedule" exact={true} component={this.Schedule} />
-            <Route path="/e-retreat" exact={true} component={this.ERetreat} />
+            <Route path="/e-ball" exact={true} component={this.ERetreat} />
             <Route component={this.Error} />
           </Switch>
         </div>

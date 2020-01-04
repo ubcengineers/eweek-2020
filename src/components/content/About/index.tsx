@@ -4,7 +4,15 @@ import { StyledContent, StyledWrapper } from "./styled";
 import "./color.css";
 
 interface IProps {
-  color: "white" | "blue" | "red";
+  color:
+    | "white"
+    | "blue"
+    | "red"
+    | "yellow"
+    | "full white"
+    | "full red"
+    | "full blue"
+    | "full yellow";
   children: React.ReactNode;
 }
 

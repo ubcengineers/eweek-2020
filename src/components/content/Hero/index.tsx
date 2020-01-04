@@ -9,13 +9,7 @@ interface IProps {
 
 export default (props: IProps) => {
   return (
-    <StyledWrapper
-      id="home"
-      style={{
-        height: props.size === "full" ? "calc(100vh - 64px)" : "70vw",
-        maxHeight: props.size === "full" ? "" : "70vh"
-      }}
-    >
+    <StyledWrapper id="home" style={{}}>
       {props.logo && <StyledLogo src={props.logo} />}
       {props.subtitle && <h2>{props.subtitle}</h2>}
     </StyledWrapper>
