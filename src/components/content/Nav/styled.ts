@@ -62,7 +62,7 @@ export const StyledOpen = styled.i`
   height: 16px;
   line-height: 48px;
   vertical-align: middle;
-  color: #333333;
+  color: white;
   cursor: pointer;
   transition: all 0.2s;
 

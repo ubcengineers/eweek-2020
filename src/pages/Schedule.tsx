@@ -21,7 +21,7 @@ export default () => {
         <Event
           name="Red Eye Breakfast"
           description="8 AM - 10 AM"
-          scores={["-", "-", "-"]}
+          scores={[]}
         />
         <Event
           name="Smash Tourney!"
@@ -39,11 +39,7 @@ export default () => {
           scores={["-", "-", "-"]}
         />
         <h2>Tuesday</h2>
-        <Event
-          name="PP Breakfast"
-          description="8 AM - 10 AM"
-          scores={["-", "-", "-"]}
-        />
+        <Event name="PP Breakfast" description="8 AM - 10 AM" scores={[]} />
         <Event
           name="Chariot Racing"
           description="1 PM - 4 PM"
@@ -104,7 +100,7 @@ export default () => {
           buttons={[
             {
               link:
-                "https://calendar.google.com/calendar?cid=ODcxM3NlZXA0OGp0b29udmg5bGY0OHBrcmdAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ",
+                "https://calendar.google.com/calendar/embed?src=7siv1nug7eps8tkcrcrd4doqjo%40group.calendar.google.com&ctz=America%2FVancouver",
               logo: "fas fa-calendar-alt",
               title: "Download Calendar"
             }

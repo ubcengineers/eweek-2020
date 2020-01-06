@@ -23,7 +23,8 @@ export default () => {
           buttons={[
             {
               title: "Buy your ticket",
-              link: "https://www.showpass.com/eus-e-retreat-2019/",
+              link:
+                "https://www.showpass.com/100th-annual-engineers-ball/?fbclid=IwAR15d8C0mxbiCVrEExNetytmEEUCa7DDvjFXnZKsYWbbjMc4GeFJWcDoec8",
               logo: "fas fa-ticket-alt"
             }
           ]}
