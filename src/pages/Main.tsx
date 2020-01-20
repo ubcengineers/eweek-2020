@@ -7,6 +7,7 @@ import YouTube from "../components/content/YouTube";
 import Contact from "../components/form/Contact";
 
 import logo from "../assets/logo.png";
+import score from "../assets/score.png";
 
 export default () => {
   return (
@@ -57,6 +58,10 @@ export default () => {
             }
           ]}
         />
+      </About>
+      <About color="full white" center={true}>
+        <h1>Leaderboard</h1>
+        <img src={score} />
       </About>
       <About color="full yellow">
         <h1>Get hyped</h1>

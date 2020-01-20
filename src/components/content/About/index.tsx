@@ -14,11 +14,12 @@ interface IProps {
     | "full blue"
     | "full yellow";
   children: React.ReactNode;
+  center?: boolean;
 }
 
 export default (props: IProps) => {
   return (
-    <StyledWrapper className={props.color}>
+    <StyledWrapper className={props.color + (props.center ? " center" : "")}>
       <StyledContent>{props.children}</StyledContent>
     </StyledWrapper>
   );
